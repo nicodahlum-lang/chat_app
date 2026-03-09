@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Yarn
+.yarn/cache
+.yarn/install-state.gz
+.pnp.*
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Expo
+react_native_space/.expo/
+
+# Abacus
+.abacus.donotdelete
